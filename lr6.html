@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текстовый квест</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="game" class="background-start">
+    <div id="story">Вы, Марти МакФлай, стоите перед Доктором Эмметом Брауном,<br> который с удивлением рассматривает свою последнюю изобретенную временную машину — <br> Делеориан DMC-12, переделанную в машину времени. <br> <br>
+
+        Доктор Браун суетится вокруг машины, проверяя панели и координаты. <br> Он обращается к вам с восторгом: <br>
+        
+        "Марти, мы готовы к приключению! Я настроил несколько временных точек,<br> и ты можешь выбрать, в какую эпоху отправишься. <br> На что ты хочешь посмотреть?" <br> <br>
+        
+        Вы внимательно рассматриваете панель управления и видите два варианта:</div>
+    <div id="options">
+        <button onclick="makeChoice('past')">Путешествие в прошлое - 1955 год</button>
+        <button onclick="makeChoice('future')">Путешествие в будущее - 2015 год</button>
+    </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

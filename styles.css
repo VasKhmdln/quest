@@ -1,0 +1,244 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-start {
+    background-image: url('img/image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+.background-past {
+    background-image: url('img/past_1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-help {
+    background-image: url('img/help.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-city {
+    background-image: url('img/city.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-market {
+    background-image: url('img/market.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-learn {
+    background-image: url('img/learn.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-cafe {
+    background-image: url('img/cafe.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-future {
+    background-image: url('img/future.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-exhibition {
+    background-image: url('img/exhibition.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-casino {
+    background-image: url('img/casino.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-show {
+    background-image: url('img/show.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-slot {
+    background-image: url('img/slot.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-jek {
+    background-image: url('img/jek.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.background-m {
+    background-image: url('img/m.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#game {
+    
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+#story {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Фон текста */
+
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 17px;
+}
+
+#options button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+
